@@ -1,0 +1,48 @@
+Arguments: 
+  /Users/clarence/.nvm/versions/node/v13.13.0/bin/node /Users/clarence/.yarn/bin/yarn.js add clean-webpack-plugin webpack-merge -D
+
+PATH: 
+  /Users/clarence/Applications/arcanist/arcanist/bin:/Users/clarence/.yarn/bin:/Users/clarence/.config/yarn/global/node_modules/.bin:/Users/clarence/.nvm/versions/node/v13.13.0/bin:/Users/clarence/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  13.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EINVAL: invalid argument, unlink '/Users/clarence/Folder/GitRepositorys/TypeScript-learn/node_modules/to-object-path/node_modules/kind-of'
+
+npm manifest: 
+  {
+    "name": "TypeScript-learn",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./src/index.js",
+    "scripts": {
+      "start": "webpack-dev-server --mode=development --config ./build/webpack.config.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github:ClarenceC/TypeScript-learn.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "typescript": "^4.0.5",
+      "webpack": "^5.4.0",
+      "webpack-cli": "^4.2.0",
+      "webpack-dev-server": "^3.11.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
