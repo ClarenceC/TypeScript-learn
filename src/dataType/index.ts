@@ -26,7 +26,7 @@ obj.x = 3
 // symbol
 let s1: symbol = Symbol()
 let s2 = Symbol()
-console.log(s1 === s2)
+// console.log(s1 === s2)
 
 // undefined, null
 let un: undefined = undefined

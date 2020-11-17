@@ -7,8 +7,8 @@ enum Role {
   Guest
 }
 
-console.log(Role.Reporter)
-console.log(Role)
+// console.log(Role.Reporter)
+// console.log(Role)
 
 // 字符串枚举
 enum Message {
